@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LootParty">
+    <output-path>$PROJECT_DIR$/../server/plugins</output-path>
+    <root id="archive" name="LootParty.jar">
+      <element id="module-output" name="LootParty" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

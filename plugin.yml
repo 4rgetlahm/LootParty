@@ -1,0 +1,6 @@
+name: LootParty
+version: 0.1
+main: lt.Argetlahm.LootParty.Main
+commands:
+  drop:
+    description: Komanda atsakinga už visas Drop Party funkcijas.

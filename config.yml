@@ -1,0 +1,40 @@
+#Plugino permissionai:
+#lootparty.see - leidzia naudoti /drop komanda (matyti kas joje yra ir teleportuotis i arena)
+#lootparty.manage - leidzia ideti daiktus i /drop komanda ir leidzia pradeti drop party
+Time:
+  eventTime: 600
+  chestSpawnTime: 15
+  effectRepetition: 2
+Message:
+  broadcastChestUpdate: 'Liko &6{CHEST_COUNT} &askrynių ir &3{TIME_LEFT} sekundžių iki drop party pabaigos'
+  broadcastEventEnd: '{PLAYER} darytas Drop Party baigėsi!'
+  broadcastStartedDropParty: '&3{PLAYER} pradėjo Drop Party, prisijungti galima panaudojus /drop komandą'
+  noDropPartyError: '&cŠiuo metu nevyksta joks Drop Party'
+  noPermissionToCreate: '&cJūs neturite teisės sukurti Drop Party!'
+  noPermissionToAccess: '&cJūs neturite teisės matyti Drop Party meniu!'
+  noItemsAdded: '&cJūs neįdėjote jokių daiktų!'
+  alreadyStarted: '&cDrop Party jau vyksta!'
+  startedDropParty: '&aJūs pradėjote naują Drop Party!'
+  teleportMessage: '&aJūs buvote nuteleportuotas į Drop Party zoną'
+  returnMessage: '&aJūs buvote grąžintas į savo pradinę poziciją'
+  chestTaken: '&cŠi skrynia yra užimta kito žaidėjo!'
+  limitReached: '&cJūs nebegalite atidaryti naujų skrynių!'
+Global:
+  openLimit: 5
+  eventPerDay: 2
+  maxItemCount: 4
+  maxItemsPerStack: 32
+Area:
+  World: world
+  Min:
+    X: 0.0
+    Y: 0.0
+    Z: 0.0
+  Max:
+    X: 0.0
+    Y: 0.0
+    Z: 0.0
+  Teleport:
+    X: 0.0
+    Y: 0.0
+    Z: 0.0
